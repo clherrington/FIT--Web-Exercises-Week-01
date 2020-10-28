@@ -8,11 +8,22 @@ body{
     height:auto;
     background-color: #ffffff;
 }
-
-navbar h1{
-    text-align: center;
+.page-grid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
 }
 
+.navbar-grid {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: #000000; 
+    position: sticky; 
+    top: 0
+}
 .btn-shop
 {
     float: left;
@@ -85,6 +96,13 @@ navbar h1{
     border: none;
 }
 
+.link
+{
+    
+   color: floralwhite;
+   text-decoration: none; 
+   background-color: none;
+}
 
 
 
