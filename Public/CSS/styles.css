@@ -18,11 +18,16 @@ body{
 .navbar-grid {
     grid-row: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-template-rows: auto;
     background-color: #000000; 
     position: sticky; 
-    top: 0
+    padding-top: 35px;
+    padding-bottom: 10px;
+    
+}
+.navbar-grid > a {
+    margin-top: 25px;
 }
 .btn-shop
 {
@@ -96,14 +101,27 @@ body{
     border: none;
 }
 
-.link
-{
+.navbarlink a:link {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+.navbarlink a:visited {
+        color: rgb(167, 167, 167);
+        text-decoration: none;
+        font-weight: bold;
+    }
+.navbarlink a:hover {
+        color: lightgray ;
+        text-decoration: none;
+        font-weight: bold;
+    }
+.navbarlink a:active {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    font-weight: bold;
+    }
     
-   color: floralwhite;
-   text-decoration: none; 
-   background-color: none;
-}
-
 
 
 
